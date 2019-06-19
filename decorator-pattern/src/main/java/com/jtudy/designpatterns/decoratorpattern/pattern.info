@@ -1,0 +1,13 @@
+- Decorator Pattern is in the category of STRUCTURAL PATTERN.
+- Decorator Pattern helps to attach flexible additional responsibilities to an object dynamically.
+In other words, The Decorator Pattern uses composition instead of inheritance to extend the functionality of an object at runtime.
+- The Decorator Pattern is also known as Wrapper.
+
+USAGES:
+- When you want to transparently and dynamically add responsibilities to objects without affecting other objects.
+- When you want to add responsibilities to an object that you may want to change in future.
+- Extending functionality by sub-classing is no longer practical.
+
+We use inheritance or composition to extend the behavior of an object 
+but this is done at compile time and its applicable to all the instances of the class. 
+We can't add any new functionality of remove any existing behavior at runtime – this is when Decorator pattern comes into picture.

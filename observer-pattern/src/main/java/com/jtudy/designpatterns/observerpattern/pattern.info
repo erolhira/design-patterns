@@ -1,0 +1,8 @@
+- Proxy Pattern is in the category of BEHAVIORAL PATTERN.
+- Observer is a behavioral design pattern that lets you define a subscription mechanism 
+to notify multiple objects about any events that happen to the object they’re observing.
+- The Observer pattern suggests that you add a subscription mechanism to the publisher class 
+so individual objects can subscribe to or unsubscribe from a stream of events coming from that publisher.
+- Whenever an important event happens to the publisher, it goes over its subscribers and calls the specific notification method on their objects.
+- It's crucial that all subscribers implement the same interface and that the publisher communicate with them only via that interface. 
+This interface should declare the notification method along with a set of parameters that the publisher can use to pass some contextual data along with the notification.
