@@ -1,0 +1,15 @@
+- Mediator pattern is used to reduce communication complexity between multiple objects or classes. 
+- This pattern provides a mediator class which normally handles all the communications between different classes and supports easy maintenance of the code by loose coupling. 
+- Mediator pattern falls under behavioral pattern category.
+
+Facade (185) differs from Mediator in that it abstracts a subsystem of objects to provide a more convenient interface. 
+Its protocol is unidirectional; that is, Facade objects make requests of the subsystem classes but not vice versa. 
+In contrast, Mediator enables cooperative behavior that colleague objects don't or can't provide, and the protocol is multidirectional.
+
+And about the definition:
+Facade's Type: Structural
+Mediator's Type: Behavioral
+Facade is more concerned about the components contained in the unified interface, and mediator concern how a set of objects interact.
+
+https://www.tutorialspoint.com/design_pattern/mediator_pattern.htm
+https://stackoverflow.com/questions/481984/fa%C3%A7ade-vs-mediator
